@@ -1,0 +1,43 @@
+.content{
+    display: flex;
+    width: 70%;
+    height: 410px;
+    border: black 2px solid;
+    margin: 0 auto;
+    
+}
+.img-resize{
+    height:400px;
+    width: 500px;
+}
+.left-image{
+    padding: 5px;
+}
+.text{
+    padding: 10px;
+}
+
+@media (max-width:1250px) {
+    .img-resize{
+        height: 300px;
+        width: 100%;
+        display: block;
+
+    }
+    .content{
+        height: 700px;
+        width: 410px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        text-overflow: ellipsis;
+        overflow:auto;
+    }
+}
+@media (max-width:1400px){
+    .text{
+        text-overflow: ellipsis;
+        overflow: auto;
+    }
+}

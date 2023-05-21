@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position:fixed;
+    width: 100%;
+    height: min-content;
+    background-color:#101357;
+    padding: 15px 0;
+    z-index: 11111;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.logo a{
+    color:#fbaf08;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.max-size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: auto;
+    /* max-width: 1300px; */
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0;   
+}
+
+.menu li a{
+    color: white;
+    font-size: 25px;
+    font-weight: 500px;
+    margin-left: 14px;
+    
+}
+.menu li a:hover{
+    color: #fbaf08;
+
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    min-height: 500px;
+    color: royalblue;
+    font-family:'Ubuntu', sans-serif;
+    background:url("random2.jpg") no-repeat right;
+    background-size: cover;
+}
+.max-width{
+    position: relative;
+    margin-left: 40px;
+}
+.text-1{
+    font-size: 40px;
+}
+.text-2{
+    font-size: 65px;
+    font-weight: 600;
+    font-family:'Ubuntu', sans-serif;;
+    padding: 1px;
+    text-shadow: 2px 2px 2px gray;
+    
+}
+.text-3{
+    font-size: 40px;
+}
+
+.text-3 span{
+    color: #fbaf08;
+}
+.text-1 span{
+    color: #fbaf08;
+}
+.text p{
+    text-align: left;
+}
+.text a{
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    background-color: #ff8c00;
+    /* width: 50px;
+    height: 10px; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.text a:hover{
+    color: #101357;
+}
+
+.title{
+    text-align: center;
+}
+
+.details{
+    height: 500px;
+    display: flex;
+
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.content{
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 430px;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    border: solid #fbaf08 0.5px;
+}
+.title{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom:40px;
+    text-decoration: overline;
+}
+
+.img-resize{
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.text{
+    padding: 10px;
+}
+.left-image{
+    padding: 10px;
+}
+
+@media(max-width:600px){
+    .m-icon1,.m-icon2,.m-icon3,.m-icon4{
+        visibility: hidden;
+    }
+    .max-size{
+        height: 70px;
+    }
+    .menu li a{
+        font-size: 10px;
+        display: wrap;
+    }
+    
+}
+/* .menu-btn{
+    font-size:23px;
+    color: #fff;
+} */
+
+/* @media screen and (max-width:900px){
+    .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left:0;
+        right: 0;
+        top:0;
+        background: #111;
+        z-index: 111;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .menu li{
+        display:block;
+
+    }
+    .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 222;
+    }
+} */
+
+@media (max-width:1250px) {
+    .img-resize{
+        height: auto;
+        width: 100%;
+        display: block;
+
+    }
+    .tex2{
+        font-size: 10px;
+    }
+    .content{
+        height: auto;
+        width: 410px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        text-overflow: ellipsis;
+        overflow:auto;
+    }
+}
+@media (max-width:1400px){
+    .text{
+        text-overflow: ellipsis;
+        overflow: auto;
+    }
+}
+.service-title{
+    justify-content: center;
+    text-align: center;
+    text-decoration: overline;
+    padding: 40px;
+    height: 55px;
+    color: aliceblue;
+    font-family: 'Poor Story', cursive;
+}
+.service{
+    width: 100%;
+    height: auto;
+    background-color:#121113;
+}
+.box{
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+    background-color:#fbaf08;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+
+.box:hover{
+    background-color: rgb(190, 239, 222);
+}
+.service-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.box p{
+    padding: 5px;
+    text-align: center;
+}
+.box h3{
+    text-align: center;
+    padding: 2px;
+}
+.icon-size{
+    font-size:50px;
+    padding: 5px;
+    left:0;
+    right:0;
+    text-align:center;
+}
+@media(max-width:600px){
+    .service{
+        height: auto;
+    }
+    
+}
+@media(max-width:800px){
+    .skills{
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+.card-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: overline;
+    font-family: 'Poor Story', cursive;
+}
+.skills{
+    width: 85%;
+    height: auto;
+    /* border-radius: 10px; */
+    /* border: 0.5px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-card{
+    width:auto;
+    height: auto;
+    margin:5;
+    border: 0.3px solid #ababab;
+    background-color:#fbaf08;
+
+}
+/* .border1{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.border3{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+} */
+.skill-card h2, p, h4{
+    text-align: center;
+    padding: 10px;
+    
+}
+.skill-card h4{
+    color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration:overline;
+
+}
+.skill-card ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    font-family:'Nanum Gothic Coding', monospace;
+    font-size: 2rem;
+}
+@media(max-width:600px){
+    .skills{
+        flex-wrap:wrap;
+    }
+    .service{
+        height: auto;
+    }
+    .contact{
+        flex-wrap: wrap;
+    }
+    .form-containe{
+        flex-wrap: wrap;
+    }
+
+}
+.contact{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.form-container{
+    width:100%;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    display: flex;  
+}
+.map{
+    width: 700px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.map iframe{
+    width: 100%;
+    height: 560px;
+    filter: invert(100%);
+}
+.contact-title{
+    text-align: center;
+    text-decoration: overline;
+    font-family: "Poor Story", cursive;
+    padding: 40px;
+}
+.form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.form input{
+    border: 0.5px solid #fbaf08;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form textarea{
+    border: 0.5px solid #fbaf08;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form button{
+    background-color: #fbac00;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.form button:hover{
+    background-color: #ff8c00
+}
+.form h2{
+    font-weight: 800px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.address span, i{
+    font-size: 20px;
+    font-weight: 700px;
+    display: block;
+    padding: 3px;
+    font-family:'Ubuntu', sans-serif ;
+}
+
+/* .address>i{
+    color: #ff8c00;
+} */
+footer{
+    background-color: #111;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    height: 2.5rem;
+ }
+footer p{
+    color: #fff;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
