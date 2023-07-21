@@ -9,14 +9,14 @@
     position:fixed;
     width: 100%;
     height: min-content;
-    background-color:#101357;
+    background-color:#530738;
     padding: 15px 0;
     z-index: 11111;
     font-family:'Ubuntu', sans-serif;
 }
 
 .logo a{
-    color:#fbaf08;
+    color:#fb5108;
     font-size: 35px;
     font-weight: 700;
 }
@@ -44,7 +44,7 @@
     
 }
 .menu li a:hover{
-    color: #fbaf08;
+    color: #fb8108;
 
 }
 
@@ -55,7 +55,7 @@
     min-height: 500px;
     color: royalblue;
     font-family:'Ubuntu', sans-serif;
-    background:url("random2.jpg") no-repeat right;
+    background:url("dark.jpg") no-repeat right;
     background-size: cover;
 }
 .max-width{
@@ -78,10 +78,10 @@
 }
 
 .text-3 span{
-    color: #fbaf08;
+    color: #fb7d08;
 }
 .text-1 span{
-    color: #fbaf08;
+    color: #fb7d08;
 }
 .text p{
     text-align: left;
@@ -90,7 +90,7 @@
     text-decoration: none;
     position: relative;
     top: 5px;
-    background-color: #ff8c00;
+    background-color: #bae422;
     /* width: 50px;
     height: 10px; */
     padding: 10px;
